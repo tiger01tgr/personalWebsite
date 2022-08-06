@@ -1,137 +1,163 @@
+:root {
+  --speed: 500ms;
+}
+.FrontPage {
+  width: 100vw;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 2px solid;
+  list-style: none;
+  font-family: 'Chivo';
+  font-weight: 300;
+}
+
+.NavBar {
+  border-bottom: 2px solid;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  width: 100vw;
+  height: 10vh;
+  margin: auto;
+  margin-bottom: 2vh;
+  margin-top: 0px;
+}
+
+ul {
+  margin: 0px;
+  padding: 0px 20px;
+}
+
+#name {
+  font-family: 'Chivo';
+  font-weight: 300;
+  padding: 0px 10px;
+  align-items: center;
+  display: flex;
+  text-align: center;
+  flex-direction: column;
+  margin: 5vw 5vh;
+}
+
+h1 {
+  font-weight: 300;
+  font-size: 54px;
+}
+
+h2 {
+  font-weight: 300;
+  font-size: 30px
+}
+
+h3 {
+  font-family: 'Chivo';
+  font-weight: 300;
+  padding: 0px 20px;
+  font-size: 24x
+}
+
+li, p {
+  list-style: none;
+  font-family: 'Chivo';
+  font-weight: 300;
+  font-size: 30px;
+  display: inline-block;
+  padding: 0px 20px;
+}
+
+li :hover{
+  transition: filter 300ms;
+  filter: invert(50%);
+}
+
+.theme_button {
+  position: relative;
+  bottom: -3px;
+}
+
+.menu {
+  padding: 0px 20px;
+}
+
+.menu :hover{
+  transition: filter 300ms;
+  filter: invert(50%);
+}
+
+.rightbar {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  position: absolute;
+  right: 0px;
+  top: 40%;
+}
+
+.rightbaritem {
+  padding: 1rem 0;
+}
 
 
-.input {
-    display: flex;
-    width: 95%;
-    position: relative;
-    align-items: center;
+@media screen and (min-width: 600px){
+  .card-tall {
+      grid-row: span 2 / auto;
   }
-  
-  .input__box {
-    width: 100%;
-    border-radius: 50px;
-    padding: 20px 30px;
-    font-size: 25px;
-    border: none;
-    transition: 0.2s;
-    box-shadow: inset 0 0 5px black;
+
+  .card-wide {
+      grid-column: span 2 / auto;
   }
-  
-  .input__box:focus {
-    box-shadow: 0 0 10px 1000px rgba(0, 0, 0, 0.5);
-    outline: none;
-  }
-  
-  .input_submit {
-    position: absolute;
-    width: 50px;
-    height: 50px;
-    margin: 12px;
-    border-radius: 50px;
-    right: 0px;
-    border: none;
-    font-size: 15px;
-    background-color: #2f74c0;
-    color: white;
-    transition: 0.2s all;
-    box-shadow: 0 0 10px black;
-  }
-  
-  .input_submit:hover {
-    background-color: #388ae2;
-  }
-  
-  .input_submit:active {
-    transform: scale(0.8);
-    box-shadow: 0 0 5px black;
-  }
-  
-  .container {
-    width: 95%;
-    display: flex;
-    margin-top: 10px;
-    justify-content: space-between;
-    align-items: flex-start;
-  }
-  
-  .todos {
-    border-radius: 5px;
-    display: flex;
-    flex-direction: column;
-    width: 47.5%;
-    padding: 15px;
-    background-color: rgb(50, 195, 205);
-  }
-  
-  .dragactive {
-    background-color: rgb(0, 221, 236);
-  }
-  
-  .dragcomplete {
-    background-color: rgb(255, 38, 0);
-  }
-  
-  .remove {
-    background-color: rgb(235, 103, 80);
-  }
-  
-  .todos__heading {
-    font-size: 30px;
-    /* text-align: center; */
-    color: white;
-  }
-  
-  .todos__single {
-    display: flex;
-    border-radius: 5px;
-    padding: 20px;
-    margin-top: 15px;
-    background-image: url("https://img.freepik.com/free-photo/crumpled-yellow-paper-background-close-up_60487-2390.jpg?size=626&ext=jpg");
-    transition: 0.2s;
-  }
-  
-  .drag {
-    box-shadow: 0 0 20px black;
-  }
-  
-  .todos__single:hover {
-    box-shadow: 0 0 5px black;
-    transform: scale(1.03);
-  }
-  
-  .todos__single--text {
-    flex: 1;
-    padding: 5px;
-    border: none;
-    font-size: 20px;
-  }
-  
-  .todos__single--text:focus {
-    outline: none;
-  }
-  
-  .icon {
-    margin-left: 10px;
-    font-size: 25px;
-    cursor: pointer;
-  }
-  
-  @media (max-width: 1100px) {
-    .todos {
-      width: 45%;
-    }
-  }
-  
-  @media (max-width: 700px) {
-    .input {
-      width: 95%;
-    }
-    .container {
-      width: 95%;
-      flex-direction: column;
-    }
-    .todos {
-      width: 95%;
-      margin-bottom: 10px;
-    }
-  }
+}
+
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-Light.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-LightItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 300;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-Regular.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-Italic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 400;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-Bold.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-BoldItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 700;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-Black.ttf') format('truetype');
+	font-style: normal;
+	font-weight: 900;
+}
+@font-face {
+	font-family: 'Chivo';
+	src: url('../fonts/Chivo/Chivo-BlackItalic.ttf') format('truetype');
+	font-style: italic;
+	font-weight: 900;
+}
