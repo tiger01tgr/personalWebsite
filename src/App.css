@@ -1,4 +1,9 @@
 @import url('https://fonts.googleapis.com/css2?family=Neucha&display=swap');
+.website {
+  scroll-snap-type: y mandatory;
+  overflow-y: scroll;
+  height: 100vh;
+}
 
 #light .App {
   background-color: #fdefee;
@@ -6,4 +11,103 @@
 
 #dark .App {
   background-color: #282828;
+}
+
+:root {
+  --size: 100vw + 100vh;
+
+}
+
+.aboutme {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  padding: 0px 10vw;
+  align-items: center;
+  justify-content: center;
+}
+
+.aboutmedescription {
+  width: 30vw;
+  height: 50vh;
+  margin: 1rem;
+}
+.aboutmepicdiv {
+  width: min(15vw);
+  height: 50vh;
+}
+.aboutmepic {
+  width: 12.5vw;
+  height: 16.5vw;
+  border: solid 2px;
+  border-radius: 15px;
+  margin: 0.5rem;
+}
+
+#aboutmepicdescription {
+  font-size: 20px;
+}
+
+.frontPageScroll {
+  animation-name: fadeIn;
+  animation-timing-function: linear;
+  animation-delay: 2s;
+  animation-iteration-count: 1;
+}
+
+.bottom-scroll {
+  opacity: 0;
+  animation-name: MoveUpDown;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  animation-duration: 1.5s;
+  animation-delay: 5s;
+  margin: 3rem;
+}
+
+.scrollDownText {
+  opacity: 75%;
+  animation-name: Glow;
+  animation-timing-function: linear;
+  animation-iteration-count: 1;
+  animation-duration: 8s;
+}
+
+@keyframes Glow {
+  0%{
+    opacity: 0;
+  }
+  50%{
+    opacity: 0;
+  }
+  75% {
+    opacity: 75%;
+  }
+}
+
+@keyframes MoveUpDown {
+  0%{
+    transform: translateY(3px);
+    opacity: 5%;
+  }
+  50% {
+    transform: translateY(0px);
+    opacity: 100%;
+  }
+  100% {
+    transform: translateY(3px);
+    opacity: 5%;
+  }
+}
+
+
+
+@keyframes fadeIn {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    visibility: visible;
+    opacity: 1;
+  }
 }

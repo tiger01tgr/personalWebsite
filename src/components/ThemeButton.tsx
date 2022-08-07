@@ -10,6 +10,7 @@ const ThemeButton: React.FC = () => {
     const toggleTheme = (e: React.MouseEvent) => {
         e.preventDefault();
         theme.name === 'light' ? setTheme(darkTheme) : setTheme(lightTheme)
+        localStorage.setItem('theme', JSON.stringify(theme.name === 'light' ? darkTheme : lightTheme));
     }
     return (
         <span 

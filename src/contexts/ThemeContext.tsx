@@ -18,11 +18,15 @@ interface ThemeInterface {
     setTheme: (theme: Theme) => void;
 }
 
-const defaultTheme = {
-    name: 'light',
-    background: '#fdefee',
-    font: '#282828',
-    secondaryFont: '#969696'
+let defaultTheme = JSON.parse(localStorage.getItem('theme') ?? '{}');
+
+if(defaultTheme==={}) {
+    defaultTheme = {
+        name: 'light',
+        background: '#fdefee',
+        font: '#282828',
+        secondaryFont: '#969696'
+    }
 }
 
   

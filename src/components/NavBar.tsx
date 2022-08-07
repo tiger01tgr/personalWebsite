@@ -2,7 +2,7 @@ import React from 'react'
 import ThemeButton from './ThemeButton';
 import { useTheme } from '../contexts/ThemeContext';
 import './styles.css';
-import DropDownMenu from './DropDownMenu';
+import { DropDownMenu, DropDownMenuObject } from './DropDownMenu';
 
 const NavBar = () => {
     const { theme, setTheme } = useTheme();
@@ -14,10 +14,11 @@ const NavBar = () => {
 
             <ul>
                 <li className='theme_button'><ThemeButton /></li>
-                <li><p>welcome!</p></li>
             </ul>
 
-            <DropDownMenu />
+            <DropDownMenu>
+                <DropDownMenuObject/>
+            </DropDownMenu>
         </nav>
     )
 }
