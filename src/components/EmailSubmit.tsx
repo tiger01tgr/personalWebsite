@@ -49,7 +49,7 @@ const EmailSubmit = () => {
             <button 
                 className='submit' 
                 type="submit"
-                style={{backgroundColor: theme.background, borderColor: theme.font, fontSize: 30}}>
+                style={{backgroundColor: theme.background, borderColor: theme.font, fontSize: 30, color: theme.font}}>
                     submit
             </button>
         </form>

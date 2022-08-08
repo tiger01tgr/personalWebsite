@@ -45,12 +45,7 @@ const App: React.FC = () => {
               />
             </div>
             <div id='name' className='frontPageScroll'>
-                <TypingText 
-                    text={'scroll down'}
-                    fontSize={30}
-                    delay={5000}
-                    id={'scrollDownText'}
-                  />
+                <h2 className='scrollDownText'>scroll down</h2>
                 <div className='bottom-scroll'>
                   <ScrollDownIcon/>
                 </div>

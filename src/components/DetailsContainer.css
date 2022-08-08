@@ -13,3 +13,25 @@
     border-radius: 15px;
     box-shadow: 5px 10px;
 }
+
+.DetailsContainer::-webkit-scrollbar {
+    border-radius: 15px;
+    width: 8px;
+}
+
+/* Track */
+.DetailsContainer::-webkit-scrollbar-track {
+    display: none;
+}
+
+/* Handle */
+.DetailsContainer::-webkit-scrollbar-thumb {
+    padding: 10px 0;
+    border-radius: 15px;
+    background: #888;
+}
+
+/* Handle on hover */
+.DetailsContainer::-webkit-scrollbar-thumb:hover {
+    background: #555;
+}

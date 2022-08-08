@@ -3,6 +3,7 @@ import { useTheme } from '../contexts/ThemeContext';
 import { useMenu } from '../contexts/DropDownMenuContext';
 import { ReactComponent as Menu } from '../icons/Menu.svg';
 import { ReactComponent as DarkMenu } from '../icons/DarkMenu.svg';
+import pdf from '../resume.pdf';
 import './styles.css'
 
 export const DropDownMenu: React.FC<React.PropsWithChildren> = (props) => {
@@ -12,7 +13,6 @@ export const DropDownMenu: React.FC<React.PropsWithChildren> = (props) => {
     console.log(menu);
 
     const toggleMenu = (e: React.MouseEvent) => {
-        e.preventDefault();
         setMenu({on: !menu.on});
     }
     if (theme.name==='dark') {
@@ -45,24 +45,35 @@ export const DropDownMenuObject = () => {
 
         const scrollTo = (e: React.MouseEvent) => {
             e.preventDefault();
-            console.log(props.id)
             if (props.id==='resume') return;
             const anchor = document.getElementById(props.id);
-            console.log(anchor)
             if (!anchor) return;
             anchor.scrollIntoView({ behavior: 'smooth', block: 'center' })
-            console.log('hii')
         }
 
-        return (
-            <a 
-                className='menu-item' 
-                style={{color: theme.font, textDecorationColor: theme.font}}
-                onClick={(e) => scrollTo(e)}
-            >
-                {props.children}
-            </a>
-        )
+        if (props.id==='resume') {
+            return (
+                <a 
+                    className='menu-item' 
+                    style={{color: theme.font, textDecorationColor: theme.font}}
+                    href={pdf}
+                    download='resume.pdf'
+                >
+                    {props.children}
+                </a>
+            )
+        }
+        else{
+            return (
+                <a 
+                    className='menu-item' 
+                    style={{color: theme.font, textDecorationColor: theme.font}}
+                    onClick={(e) => scrollTo(e)}
+                >
+                    {props.children}
+                </a>
+            )
+        }
     }
     return (
         <div className='menuobj' style={{borderColor: theme.font, backgroundColor: theme.background, textDecorationColor: theme.font}}>
