@@ -1,12 +1,10 @@
 import React, { useRef, useState } from 'react';
 import './App.css';
-import ThemeButton from './components/ThemeButton'
 import { ThemeProvider, useTheme } from './contexts/ThemeContext'
 import Page from './components/Page';
 import NavBar from './components/NavBar';
 import { RightBar } from './components/RightBar';
 import { MenuProvider } from './contexts/DropDownMenuContext';
-import { BsChevronDoubleDown } from 'react-icons/bs';
 import pic from './icons/pic.jpg';
 import ScrollDownIcon from './components/ScrollDownIcon';
 import TypingText from './components/TypingText';
@@ -95,7 +93,7 @@ const App: React.FC = () => {
                   date='August 2022'
                   techUsed='Typescript, React.js, HTML5, CSS'
                   bullet1=" - You're on this website right now!"
-                  bullet2=' - Created responsive mobile design.'
+                  bullet2=' - Designed responsive mobile website.'
                   bullet3=''/>
               <ExperienceProjectsDetails 
                   title='Vandy Course Buddy (hackathon)'
