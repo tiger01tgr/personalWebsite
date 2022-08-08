@@ -1,0 +1,33 @@
+{
+  "files": {
+    "main.css": "/tiger01tgr.github.io/portfolioWebsite/static/css/main.a94653a5.css",
+    "main.js": "/tiger01tgr.github.io/portfolioWebsite/static/js/main.c86089eb.js",
+    "static/media/pic.jpg": "/tiger01tgr.github.io/portfolioWebsite/static/media/pic.3c442767bc6d857ddc86.jpg",
+    "static/media/resume.pdf": "/tiger01tgr.github.io/portfolioWebsite/static/media/resume.e50747d5651a493acd2b.pdf",
+    "static/media/Chivo-BlackItalic.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-BlackItalic.d6d2f389abd17d0e0410.ttf",
+    "static/media/Chivo-Light.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-Light.ac29c1af99a9bf81b478.ttf",
+    "static/media/Chivo-Regular.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-Regular.c02964be6ad17a843ee3.ttf",
+    "static/media/Chivo-Black.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-Black.dc7eef684979f3afa757.ttf",
+    "static/media/Chivo-LightItalic.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-LightItalic.1eaaff43844cdf81fdc1.ttf",
+    "static/media/Chivo-BoldItalic.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-BoldItalic.6dee93b5e77177855696.ttf",
+    "static/media/Chivo-Italic.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-Italic.78aa74cdc4df66025566.ttf",
+    "static/media/Chivo-Bold.ttf": "/tiger01tgr.github.io/portfolioWebsite/static/media/Chivo-Bold.51dcd92eb61cbec24c51.ttf",
+    "static/media/DarkGithubLogo.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/DarkGithubLogo.33ca826797d2d0dbb8053a63b9eaae98.svg",
+    "static/media/GithubLogo.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/GithubLogo.84d241ce1ea1cdacb89ae21107dde82c.svg",
+    "static/media/Sun.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/Sun.ef6450aae05ed85ee0b5f023819cc010.svg",
+    "static/media/Moon.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/Moon.8c16aadb29fdd282854009e880e5e51d.svg",
+    "static/media/DarkLinkedinLogo.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/DarkLinkedinLogo.6ccd0a3c2540cc771c493e365ee41643.svg",
+    "static/media/LinkedinLogo.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/LinkedinLogo.8457150a9c84ea2142235d5c89801bfa.svg",
+    "static/media/LightCaretDoubleDown.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/LightCaretDoubleDown.17391b0d77b1ca4aa19e7b8e343edd46.svg",
+    "static/media/DarkCaretDoubleDown.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/DarkCaretDoubleDown.a724b54697140e1511902a7dc8cc34dd.svg",
+    "index.html": "/tiger01tgr.github.io/portfolioWebsite/index.html",
+    "static/media/Menu.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/Menu.168192c9d1a47a5e3faa46d5450ce0d7.svg",
+    "static/media/DarkMenu.svg": "/tiger01tgr.github.io/portfolioWebsite/static/media/DarkMenu.7b260f83ebdb6b6187c35018703520d7.svg",
+    "main.a94653a5.css.map": "/tiger01tgr.github.io/portfolioWebsite/static/css/main.a94653a5.css.map",
+    "main.c86089eb.js.map": "/tiger01tgr.github.io/portfolioWebsite/static/js/main.c86089eb.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.a94653a5.css",
+    "static/js/main.c86089eb.js"
+  ]
+}
