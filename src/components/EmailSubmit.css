@@ -1,0 +1,71 @@
+.emailForm {
+    display: flex;
+    flex-direction: column;
+    width: 85vw;
+    height: 70vh;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 5px 10px;
+}
+
+.contactme {
+    margin: 0 1rem;
+}
+
+#toFromSubject {
+    margin: 0.5rem;
+}
+
+.emailInput {
+    width: 75%;
+    height: 2rem;
+    border: none;
+    border-bottom: 2px solid;
+    outline: none;
+    font-family: 'Chivo';
+    font-weight: 300;
+    padding: 0.1rem 0.1rem;
+}
+
+.emailBody {
+    font-family: 'Chivo';
+    font-weight: 300;
+    padding: 0.1 0.1rem;
+    outline: none;
+}
+
+textarea {
+    width: 100%;
+    height: 25rem;
+    padding: 0.1rem 0.1rem;
+    box-sizing: border-box;
+    border: 2px solid;
+    border-radius: 4px;
+    resize: none;
+}
+
+.submit {
+    margin: auto;
+    width: 10rem;
+    height: 10%;
+    border: 2px solid;
+    border-radius: 15px;
+    font-family: 'Chivo';
+    font-weight: 300;
+}
+
+.submit:hover {
+    transition: filter 300ms;
+    filter: opacity(25%);
+}
+
+label {
+    font-family: 'Chivo';
+    font-weight: 300;
+}
+
+.emailHeader {
+    display:flex;
+    flex-direction: column;
+    margin-bottom: 2rem;
+}

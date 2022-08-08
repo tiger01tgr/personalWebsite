@@ -26,11 +26,6 @@ const TypingText: React.FC<Props> = (props) => {
             if (forwards) {
               if (offset >= words[i].length) {
                 ++skip_count;
-                /*
-                if (skip_count == skip_delay) {
-                  forwards = false;
-                  skip_count = 0;
-                }*/
               }
             }
             else {
@@ -53,7 +48,7 @@ const TypingText: React.FC<Props> = (props) => {
               }
             }
             $('#' + props.id).text(part);
-          }, speed * 2);
+          }, speed * 1.2);
         }, props.delay
         )
     };

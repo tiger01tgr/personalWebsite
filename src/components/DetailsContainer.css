@@ -1,0 +1,15 @@
+
+.DetailsContainer {
+    margin: 0.5rem 0;
+    width: 85vw;
+    height: 60vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    scroll-snap-type: y mandatory;
+    overflow-y: scroll;
+    border: 2px solid;
+    border-radius: 15px;
+    box-shadow: 5px 10px;
+}

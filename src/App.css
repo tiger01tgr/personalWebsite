@@ -46,6 +46,7 @@
 
 #aboutmepicdescription {
   font-size: 20px;
+  margin: 0px;
 }
 
 .frontPageScroll {
@@ -77,7 +78,7 @@
   0%{
     opacity: 0;
   }
-  50%{
+  60%{
     opacity: 0;
   }
   75% {
