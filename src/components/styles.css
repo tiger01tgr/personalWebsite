@@ -115,7 +115,7 @@ li :hover{
   animation-name: Glow;
   animation-timing-function: linear;
   animation-iteration-count: 1;
-  animation-duration: s;
+  animation-duration: 5s;
 }
 
 .rightbaritem {

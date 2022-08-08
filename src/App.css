@@ -71,7 +71,7 @@
   animation-name: Glow;
   animation-timing-function: linear;
   animation-iteration-count: 1;
-  animation-duration: 8s;
+  animation-duration: 7s;
 }
 
 @keyframes Glow {
