@@ -1,7 +1,7 @@
 import React from 'react'
 import { useTheme } from '../contexts/ThemeContext'
-import { ReactComponent as Moon } from '../icons/Moon.svg'
-import { ReactComponent as Sun } from '../icons/Sun.svg'
+import Moon from '../icons/Moon.svg'
+import Sun from '../icons/Sun.svg'
 
 
 const ThemeButtonIcon = () => {

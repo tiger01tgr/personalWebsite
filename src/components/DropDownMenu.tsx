@@ -1,8 +1,8 @@
 import React, { PropsWithChildren, PropsWithRef, Ref, useRef, useState } from 'react'
 import { useTheme } from '../contexts/ThemeContext';
 import { useMenu } from '../contexts/DropDownMenuContext';
-import { ReactComponent as Menu } from '../icons/Menu.svg';
-import { ReactComponent as DarkMenu } from '../icons/DarkMenu.svg';
+import Menu from '../icons/Menu.svg';
+import DarkMenu from '../icons/DarkMenu.svg';
 import pdf from '../resume.pdf';
 import './styles.css'
 

@@ -18,34 +18,46 @@
 
 }
 
+h1 {
+  font-weight: 300;
+  font-size: clamp(2em, 5vmin, 4rem);
+  animation: none;
+  display: flex;
+  justify-self: center;
+  align-self: center;
+  margin-top: clamp(0.1vw, 0.67em, 1vw);
+  margin-bottom: clamp(0.1vw, 0.67em, 1vw);
+}
+
 .aboutme {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  padding: 0px 10vw;
+  padding: 0px clamp(5px, 10vw 5rem);
   align-items: center;
   justify-content: center;
 }
 
 .aboutmedescription {
-  width: 30vw;
-  height: 50vh;
+  width: clamp(20rem, 40vw, 40rem);
+  height: clamp(auto, 35em, 50vh);
   margin: 1rem;
 }
+
 .aboutmepicdiv {
-  width: min(15vw);
-  height: 50vh;
+  width: clamp(10rem, 40rem, 15vw);
+  height: clamp(auto, 35rem, 50vw);
 }
+
 .aboutmepic {
-  width: 12.5vw;
-  height: 16.5vw;
+  width: clamp(100px, 12.5vw, 400px);
+  height: clamp(132px, 16.5vw, 528px);
   border: solid 2px;
   border-radius: 15px;
   margin: 0.5rem;
 }
 
 #aboutmepicdescription {
-  font-size: 20px;
   margin: 0px;
 }
 
@@ -63,7 +75,7 @@
   animation-iteration-count: infinite;
   animation-duration: 1.5s;
   animation-delay: 5s;
-  margin: 3rem;
+  margin: clamp(2px, 2vw, 3rem);
 }
 
 .scrollDownText {
@@ -100,8 +112,6 @@
     opacity: 5%;
   }
 }
-
-
 
 @keyframes fadeIn {
   0% {

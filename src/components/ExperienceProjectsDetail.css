@@ -1,6 +1,6 @@
 .detailDiv {
     margin: 1rem 0;
-    width: 80vw;
+    width: 90%;
     height: auto;
 }
 
@@ -43,3 +43,18 @@ ul {
     margin: 0px;
     padding: 0px 10px;
   }
+
+@media (max-width: 600px) {
+    .title {
+        font-size: 18px;
+    }
+    .date {
+        font-size: 12px;
+    }
+    .techUsed {
+        font-size: 12px;
+    }
+    .bullet {
+        font-size: 12px;
+    }
+}

@@ -1,6 +1,6 @@
 import React from 'react'
-import { ReactComponent as LightCaretDoubleDown } from '../icons/LightCaretDoubleDown.svg';
-import { ReactComponent as DarkCaretDoubleDown } from '../icons/DarkCaretDoubleDown.svg';
+import LightCaretDoubleDown from '../icons/LightCaretDoubleDown.svg';
+import DarkCaretDoubleDown from '../icons/DarkCaretDoubleDown.svg';
 import { useTheme } from '../contexts/ThemeContext';
 
 const ScrollDownIcon = () => {

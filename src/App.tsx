@@ -54,13 +54,13 @@ const App: React.FC = () => {
             <h1>&#60;about me&#62;</h1>
             <div className='aboutme'>
               <span className="aboutmedescription">
-                <p>I'm a CS major at Vanderbilt University. I'm passionate about both frontend and backend development, cloud computing, and software architecture. </p>
-                <p>In my free time, I like to follow soccer and write/play music.</p>
+                <p>I'm a CS major at Vanderbilt University. I'm passionate about fullstack development, software architecture, and financial engineering. </p>
+                <p>Right now, I'm enjoying learning C and experimenting with Rust.</p>
               </span>
               <div className='aboutmepicdiv'>
                 <img src={pic} className='aboutmepic'></img>
-                  <p id='aboutmepicdescription' style={{fontStyle: "italic"}}>what i look like</p>
-                  <p id='aboutmepicdescription' style={{fontStyle: "italic", fontSize: 14}}>circa 2021, colorized</p>
+            {/*    <p id='aboutmepicdescription' style={{fontStyle: "italic"}}>what i look like</p> 
+                <p id='aboutmepicdescription' style={{fontStyle: "italic", fontSize: 14}}>circa 2021, colorized</p>*/}
               </div>
             </div>
             <h1>&#60;/about me&#62;</h1>
@@ -78,6 +78,20 @@ const App: React.FC = () => {
                 bullet1=' - Designed and built scalable containerized micro-services that interact with blockchains to bring the company into the web3 space.'
                 bullet2=' - Converted company’s website to react responsively to all mobile and tablet screen size.'
                 bullet3=' - Sustained over 250 customer’s interest by integrating Twilio communications API into company operations.'/>
+              <ExperienceProjectsDetails 
+                title='Credit Do - Product Manager'
+                date='Oct 2022 - Present'
+                techUsed='Agile, Typescript, React.js, Next.js'
+                bullet1=' - Leading team to deliver on a digital solution for non-profit Credit Do.'
+                bullet2=' - Managing bi-weekly sprints using Agile methodology.'
+                bullet3=' - Building fully scalable system to meet stakeholder requirements in React, Next, Google Firebase.'/>
+              <ExperienceProjectsDetails 
+                title='Vanderbilt University - Teaching Assistant'
+                date='Aug 2022 - Present'
+                techUsed='C++'
+                bullet1=' - Hold office hours twice a week.'
+                bullet2=' - Contribute test-cases to our C++ testing script.'
+                bullet3=''/>
             </DetailsContainer>
             <h1>&#60;/experience&#62;</h1>
             <div className='bottom-scroll'>
@@ -89,26 +103,12 @@ const App: React.FC = () => {
             <h1>&#60;projects&#62;</h1>
             <DetailsContainer>
               <ExperienceProjectsDetails 
-                  title='Personal Website'
-                  date='August 2022'
-                  techUsed='Typescript, React.js, HTML5, CSS'
-                  bullet1=" - You're on this website right now!"
-                  bullet2=' - Designed responsive mobile website.'
-                  bullet3=''/>
-              <ExperienceProjectsDetails 
-                  title='Vandy Course Buddy (hackathon)'
-                  date='October 2021'
-                  techUsed='Node.js'
-                  bullet1=' - Created back-end for Vandy Course Buddy in Node.js.'
-                  bullet2=' - Led project to completion within time pressure of 48 hours.'
-                  bullet3=''/>
-              <ExperienceProjectsDetails 
-                  title='Discord Poll Bot'
-                  date='March 2021'
-                  techUsed='Python'
-                  bullet1=' - Developed a bot using Discord’s API.'
-                  bullet2=''
-                  bullet3=''/>
+                  title='Cerebrum'
+                  date='Dec 2022 - Present'
+                  techUsed=' Typescript, React.js, Next.js, Google Firebase '
+                  bullet1=' - Built fully scalable headache tracking web app.'
+                  bullet2=" - Designed to record accurate medical information for migraines and cluster headaches"
+                  bullet3=' - Creates detailed report of all past headaches'/>
             </DetailsContainer>
             <h1>&#60;/projects&#62;</h1>
             <div className='bottom-scroll'>

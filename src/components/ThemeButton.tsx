@@ -14,7 +14,7 @@ const ThemeButton: React.FC = () => {
     }
     return (
         <span 
-            className="theme_button"
+            className="menu"
             onClick={(e) => toggleTheme(e)}
         >
             <ThemeButtonIcon />

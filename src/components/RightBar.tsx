@@ -1,9 +1,9 @@
 import React from 'react'
 import { useTheme } from '../contexts/ThemeContext';
-import { ReactComponent as GithubLogo } from '../icons/GithubLogo.svg';
-import { ReactComponent as LinkedinLogo } from '../icons/LinkedinLogo.svg';
-import { ReactComponent as DarkGithubLogo } from '../icons/DarkGithubLogo.svg';
-import { ReactComponent as DarkLinkedinLogo } from '../icons/DarkLinkedinLogo.svg';
+import GithubLogo from '../icons/GithubLogo.svg';
+import LinkedinLogo from '../icons/LinkedinLogo.svg';
+import DarkGithubLogo from '../icons/DarkGithubLogo.svg';
+import DarkLinkedinLogo from '../icons/DarkLinkedinLogo.svg';
 import './styles.css'
 
 

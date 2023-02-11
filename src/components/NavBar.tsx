@@ -10,11 +10,7 @@ const NavBar = () => {
     return (
         <nav className='NavBar'
             style={{borderColor: theme.font}}>
-
-
-            <ul>
-                <li className='theme_button'><ThemeButton /></li>
-            </ul>
+            <ThemeButton />
 
             <DropDownMenu>
                 <DropDownMenuObject/>

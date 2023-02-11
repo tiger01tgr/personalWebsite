@@ -1,7 +1,7 @@
 
 .DetailsContainer {
     margin: 0.5rem 0;
-    width: 85vw;
+    width: clamp(200px, 70vw, 80vw);
     height: 60vh;
     display: flex;
     flex-direction: column;

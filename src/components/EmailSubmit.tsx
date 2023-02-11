@@ -16,7 +16,7 @@ const EmailSubmit = () => {
                     <p id='toFromSubject'>to: </p>
                     <input 
                         className='emailInput' 
-                        style={{backgroundColor: theme.background, fontSize: 30, color: theme.font, border: 'none'}} 
+                        style={{backgroundColor: theme.background, color: theme.font, border: 'none'}} 
                         value='tiger01tgr@gmail.com'
                         readOnly
                     />
@@ -28,20 +28,20 @@ const EmailSubmit = () => {
                         className='emailInput' 
                         type="email" 
                         name="email" 
-                        style={{backgroundColor: theme.background, borderColor: theme.font, fontSize: 30, color: theme.font}}
+                        style={{backgroundColor: theme.background, borderColor: theme.font, color: theme.font}}
                         required
                     />
                 </label>
                 <label className='contactme'>
                     <p id='toFromSubject'>subject: </p>    
-                    <input className='emailInput' name="subject" style={{backgroundColor: theme.background, borderColor: theme.font, fontSize: 30, color: theme.font}}/>
+                    <input className='emailInput' name="subject" style={{backgroundColor: theme.background, borderColor: theme.font, color: theme.font}}/>
                 </label>
             </div>
             <label className='contactme'>
                 <textarea 
                     className='emailBody' 
                     name="message" 
-                    style={{backgroundColor: theme.background, borderColor: theme.font, fontSize: 30, color: theme.font}}
+                    style={{backgroundColor: theme.background, borderColor: theme.font, color: theme.font}}
                     required
                 >
                 </textarea>
@@ -49,7 +49,7 @@ const EmailSubmit = () => {
             <button 
                 className='submit' 
                 type="submit"
-                style={{backgroundColor: theme.background, borderColor: theme.font, fontSize: 30, color: theme.font}}>
+                style={{backgroundColor: theme.background, borderColor: theme.font, color: theme.font}}>
                     submit
             </button>
         </form>

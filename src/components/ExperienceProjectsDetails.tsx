@@ -18,7 +18,7 @@ const ExperienceProjectsDetails: React.FC<Props> = (props) => {
                     <h1 className='title'>{props.title}</h1>
                 </span>
                 <span className="headerChild">
-                    <h3>{props.date}</h3>
+                    <h3 className='date'>{props.date}</h3>
                 </span>
             </div>
             <div className="detailBody">

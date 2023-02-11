@@ -18,9 +18,14 @@ interface ThemeInterface {
     setTheme: (theme: Theme) => void;
 }
 
-let defaultTheme = JSON.parse(localStorage.getItem('theme') ?? '{}');
+let defaultTheme: Theme;
 
-if(defaultTheme==={}) {
+const storage = localStorage.getItem('theme')
+
+if (storage) {
+    defaultTheme = JSON.parse(storage);
+}
+else{
     defaultTheme = {
         name: 'light',
         background: '#fdefee',
@@ -28,7 +33,6 @@ if(defaultTheme==={}) {
         secondaryFont: '#969696'
     }
 }
-
   
 export const ThemeContext = createContext<ThemeInterface>({theme: defaultTheme, setTheme: () => {} })
 
